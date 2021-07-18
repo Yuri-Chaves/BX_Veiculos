@@ -1,0 +1,65 @@
+.sobre{
+	min-height: 90%;
+	padding: 50px 2% 20px 2%;
+}
+.sobre .container{
+	max-width: 840px;
+	margin-top: 30px;
+}
+.img_destaque{
+	width: 100%;
+	padding-top: 60%;
+	background: rgb(225, 225, 225);
+	background-position: center;
+	background-size: contain;
+}
+.descricao{
+	margin-top: 20px;
+}
+.descricao h2{
+	font-size: 44px;
+	font-style: italic;
+	padding-bottom: 20px;
+}
+.descricao p{
+	font-family: 'Redressed', cursive;
+	font-size: 30px;
+	font-style: italic;
+	text-align: justify;
+}
+.autor{
+	margin-top: 20px;
+}
+.img_small{
+	width: 25%;
+	padding-top: 25%;
+	background: rgb(225, 225, 225);
+	float: left;
+	background-position: center;
+	background-size: contain;
+}
+.descricao_autor{
+	float: left;
+	width: 75%;
+	padding: 30px;
+}
+.descricao_autor p{
+	font-family: 'Redressed', cursive;
+	font-size: 30px;
+	font-style: italic;
+	text-align: justify;
+}
+
+
+@media (max-width: 768px){
+	.img_small{
+		width: 50%;
+		padding-top: 50%;
+		display: inline-block;
+	}
+	.descricao_autor{
+		width: 50%;
+		padding: 20px;
+		display: inline-block;
+	}
+}
